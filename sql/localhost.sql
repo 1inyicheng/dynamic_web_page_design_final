@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： localhost
--- 產生時間： 2026 年 06 月 11 日 07:34
+-- 產生時間： 2026 年 06 月 11 日 07:46
 -- 伺服器版本： 8.0.42
 -- PHP 版本： 7.3.10
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- 資料庫： `user_name_and_password`
 --
+CREATE DATABASE IF NOT EXISTS `user_name_and_password` DEFAULT CHARACTER SET utf32 COLLATE utf32_unicode_ci;
+USE `user_name_and_password`;
 
 -- --------------------------------------------------------
 
@@ -32,13 +34,6 @@ CREATE TABLE `account_list` (
   `user_name` varchar(10) NOT NULL,
   `pass_word` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
-
---
--- 傾印資料表的資料 `account_list`
---
-
-INSERT INTO `account_list` (`user_name`, `pass_word`) VALUES
-('aaa', '111');
 
 -- --------------------------------------------------------
 
