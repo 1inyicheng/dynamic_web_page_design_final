@@ -10,6 +10,7 @@
             <h1>login</h1>
             <a href="home.php">home</a>&nbsp;
             <a href="game.php">game</a>&nbsp;
+            <a href="scoreboard.php">scoreboard</a>&nbsp;
             <a href="signup.php">signup</a>&nbsp;
             <a href="login.php">login</a>&nbsp;
             <a href="logout.php">logout</a>&nbsp;
